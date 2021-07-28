@@ -1,0 +1,44 @@
+
+T3EA4 000:428 SEGGER J-Link V6.44f Log File (0001ms, 0238ms total)
+T3EA4 000:428 DLL Compiled: Apr 12 2019 17:17:02 (0001ms, 0238ms total)
+T3EA4 000:428 Logging started @ 2019-08-27 14:22 (0001ms, 0238ms total)
+T3EA4 000:429 JLINK_SetWarnOutHandler(...) (0000ms, 0238ms total)
+T3EA4 000:429 JLINK_OpenEx(...)
+Firmware: J-Link V9 compiled Oct 25 2018 11:46:07
+Hardware: V9.20
+Feature(s): GDB, RDI, FlashBP, FlashDL, JFlash
+TELNET listener socket opened on port 19021WEBSRV 
+Starting webserver (0033ms, 0271ms total)
+T3EA4 000:429 WEBSRV Webserver running on local port 19080 (0033ms, 0271ms total)
+T3EA4 000:429   returns O.K. (0033ms, 0271ms total)
+T3EA4 000:462 JLINK_SetErrorOutHandler(...) (0000ms, 0271ms total)
+T3EA4 000:462 JLINK_ExecCommand("ProjectFile = "D:\Desktop\H750\H750例程-HAL库\实验24 DMA实验\USER\JLinkSettings.ini"", ...). Ref file found at: C:\Keil_v5\ARM\Segger\JLinkDevices.ref (0004ms, 0275ms total)
+T3EA4 000:462 XML referenced by ref file: C:\Program Files (x86)\SEGGER\JLink_V644f\JLinkDevices.xml (0004ms, 0275ms total)
+T3EA4 000:462 C:\Program Files (x86)\SEGGER\JLink_V644f\JLinkDevices.xml evaluated successfully.Device "STM32H750VB" selected.  returns 0x00 (0265ms, 0536ms total)
+T3EA4 000:727 JLINK_ExecCommand("Device = STM32H750VBTx", ...). Device "STM32H750VB" selected.  returns 0x00 (0003ms, 0539ms total)
+T3EA4 000:730 JLINK_ExecCommand("DisableConnectionTimeout", ...).   returns 0x01 (0000ms, 0539ms total)
+T3EA4 000:730 JLINK_GetHardwareVersion()  returns 0x16760 (0000ms, 0539ms total)
+T3EA4 000:730 JLINK_GetDLLVersion()  returns 64406 (0000ms, 0539ms total)
+T3EA4 000:730 JLINK_GetFirmwareString(...) (0000ms, 0539ms total)
+T3EA4 000:730 JLINK_GetDLLVersion()  returns 64406 (0000ms, 0539ms total)
+T3EA4 000:730 JLINK_GetCompileDateTime() (0000ms, 0539ms total)
+T3EA4 000:730 JLINK_GetFirmwareString(...) (0000ms, 0539ms total)
+T3EA4 000:730 JLINK_GetHardwareVersion()  returns 0x16760 (0000ms, 0539ms total)
+T3EA4 000:730 JLINK_TIF_Select(JLINKARM_TIF_SWD)  returns 0x00 (0004ms, 0543ms total)
+T3EA4 000:734 JLINK_SetSpeed(5000) (0001ms, 0544ms total)
+T3EA4 000:735 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)  returns JLINKARM_RESET_TYPE_NORMAL (0000ms, 0544ms total)
+T3EA4 000:735 JLINK_Reset() >0x10B TIF>Found SW-DP with ID 0x6BA02477 >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF>
+ >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x10B TIF>Found SW-DP with ID 0x6BA02477 >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF>
+ >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF>Scanning AP map to find all available APs >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF>AP[3]: Stopped AP scan as end of AP map has been reachedAP[0]: AHB-AP (IDR: 0x84770001)AP[1]: AHB-AP (IDR: 0x84770001)
+AP[2]: APB-AP (IDR: 0x54770002)Iterating through AP map to find AHB-AP to use >0x42 TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x42 TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF>AP[0]: Core foundAP[0]: AHB-AP ROM base: 0xE00FE000 >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF>CPUID register: 0x411FC271. Implementer code: 0x41 (ARM)
+Found Cortex-M7 r1p1, Little endian. -- Max. mem block: 0x00010F28 -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU_ReadMem(4 bytes @ 0xE0002000)FPUnit: 8 code (BP) slots and 0 literal slots -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001000) -- CPU_ReadMem(4 bytes @ 0xE000ED88) -- CPU_WriteMem(4 bytes @ 0xE000ED88) -- CPU_ReadMem(4 bytes @ 0xE000ED88)
+ -- CPU_WriteMem(4 bytes @ 0xE000ED88)CoreSight components:ROMTbl[0] @ E00FE000 -- CPU_ReadMem(16 bytes @ 0xE00FE000) -- CPU_ReadMem(16 bytes @ 0xE00FFFF0) -- CPU_ReadMem(16 bytes @ 0xE00FFFE0)ROMTbl[0][0]: E00FF000, CID: B105100D, PID: 000BB4C7 ROM TableROMTbl[1] @ E00FF000 -- CPU_ReadMem(16 bytes @ 0xE00FF000) -- CPU_ReadMem(16 bytes @ 0xE000EFF0) -- CPU_ReadMem(16 bytes @ 0xE000EFE0)ROMTbl[1][0]: E000E000, CID: B105E00D, PID: 000BB00C SCS-M7 -- CPU_ReadMem(16 bytes @ 0xE0001FF0)
+ -- CPU_ReadMem(16 bytes @ 0xE0001FE0)ROMTbl[1][1]: E0001000, CID: B105E00D, PID: 000BB002 DWT -- CPU_ReadMem(16 bytes @ 0xE0002FF0) -- CPU_ReadMem(16 bytes @ 0xE0002FE0)ROMTbl[1][2]: E0002000, CID: B105E00D, PID: 000BB00E FPB-M7 -- CPU_ReadMem(16 bytes @ 0xE0000FF0) -- CPU_ReadMem(16 bytes @ 0xE0000FE0)ROMTbl[1][3]: E0000000, CID: B105E00D, PID: 000BB001 ITM -- CPU_ReadMem(16 bytes @ 0xE00FF010) -- CPU_ReadMem(16 bytes @ 0xE0041FF0) -- CPU_ReadMem(16 bytes @ 0xE0041FE0)
+ROMTbl[0][1]: E0041000, CID: B105900D, PID: 001BB975 ETM-M7 -- CPU_ReadMem(16 bytes @ 0xE0043FF0) -- CPU_ReadMem(16 bytes @ 0xE0043FE0)ROMTbl[0][2]: E0043000, CID: B105900D, PID: 004BB906 CTI -- CPU_ReadMem(16 bytes @ 0xE00FE010) -- CPU_ReadMem(4 bytes @ 0xE000ED78)Cache: Separate I- and D-cache. (0284ms, 0828ms total)
+T3EA4 000:735  -- CPU_WriteMem(4 bytes @ 0xE000ED84) -- CPU_ReadMem(4 bytes @ 0xE000ED80)I-Cache L1: 16 KB, 256 Sets, 32 Bytes/Line, 2-Way -- CPU_WriteMem(4 bytes @ 0xE000ED84) -- CPU_ReadMem(4 bytes @ 0xE000ED80)D-Cache L1: 16 KB, 128 Sets, 32 Bytes/Line, 4-Way -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC)Reset: Halt core after reset via DEMCR.VC_CORERESET. >0x35 TIF>Reset: Reset device via AIRCR.SYSRESETREQ. -- CPU is running
+ -- CPU_WriteMem(4 bytes @ 0xE000ED0C) >0x0D TIF> >0x28 TIF> -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE0002000) -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_ReadMem(4 bytes @ 0xE0001000) (0361ms, 0905ms total)
+T3EA4 001:096 JLINK_GetId() >0x0D TIF> >0x21 TIF>  returns 0x6BA02477 (0002ms, 0907ms total)
+T3EA4 001:107 JLINK_GetFirmwareString(...) (0000ms, 0907ms total)
+T3EA4 003:393 JLINK_Close() -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001004) >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> (0039ms, 0946ms total)
+T3EA4 003:393  (0039ms, 0946ms total)
+T3EA4 003:393 Closed (0039ms, 0946ms total)
